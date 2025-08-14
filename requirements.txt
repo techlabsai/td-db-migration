@@ -1,0 +1,5 @@
+papermill
+pandas
+teradatasql
+pyspark
+requests
