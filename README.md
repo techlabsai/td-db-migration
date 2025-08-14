@@ -24,9 +24,9 @@ After each notebook run:
 - Runs your migration notebook with papermill
 - Captures execution metadata: start/end time, duration, error trace
 - Verifies migration correctness:
-- Compares row counts
-- Compares sample data hash
-- Stores results in migration_monitoring_log.csv for compliance audit
+ - Compares row counts
+ - Compares sample data hash
+ - Stores results in migration_monitoring_log.csv for compliance audit
 
 ## Compliance data captured
 - Audit trail: Which notebook ran, when, with what parameters
